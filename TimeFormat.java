@@ -19,8 +19,8 @@ public class TimeFormat {
 		if (hours > 12) {int currenthour = hours - 12; 
 			if (minutes < 10) {System.out.println(currenthour+":"+"0"+minutes+ " "+ "PM");
 		} else {System.out.println(currenthour+":"+minutes+ " "+ "PM");
-	}
-}
+		}
+		}
 		else if (hours<12) 
 			if (minutes<10) {System.out.println("0"+hours+":"+"0"+minutes+ " "+ "AM");
 		} else {System.out.println("0"+hours+":"+minutes+ " "+ "AM");

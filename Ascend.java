@@ -5,7 +5,6 @@ import java.util.Random;
 
 public class Ascend {
 	public static void main(String[] args) {
-		// Replace this comment with your code
 		int lim = Integer.parseInt(args [0]); // the limit
 
 		int first = (int)(Math.random()*lim);
